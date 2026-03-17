@@ -56,6 +56,8 @@ export interface D2CNode {
 
   // 样式引用
   styleRef?: string;
+  // 矢量/图片资源引用（VECTOR 使用 vectorRef，IMAGE 使用 imageRef）
+  vectorRef?: string;
 
   // 内容
   text?: string;
